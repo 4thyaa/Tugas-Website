@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #F8F4E1;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .background {
+            padding: 50px;
+            background-color: #F8F4E1;
+            margin-top: 200px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 100%;
+            margin: 0 auto;
+            padding: 30px;
+        }
+
+        .haif {
+            flex: 1;
+            text-align: center;
+        }
+
+        .haif img {
+            width: 80%;
+            height: auto;
+            border-radius: 50%;
+            padding: 30px;
+        }
+
+        .haif h1 {
+            font-size: 70px;
+            letter-spacing: 1px;
+        }
+
+        .haif p {
+            font-size: 20px;
+            max-width: 70%;
+            margin: 0 auto;
+            color: black;
+            text-align: justify;
+            font-weight: 400;
+        }
+
+        .haif button {
+            margin-top: 30px;
+            width: 200px;
+            height: 45px;
+            border: none;
+            border-radius: 25px;
+            background-color: #333;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .haif button:hover {
+            background-color: #555;
+        }
+
+        @media (max-width: 768px) {
+            .haif h1 {
+                font-size: 50px;
+            }
+
+            .haif p {
+                font-size: 18px;
+                max-width: 90%;
+            }
+
+            .haif img {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="background">
+        <div class="container">
+            <div class="haif">
+                <img src="asset/looggo.jpg" alt="about-img" />
+            </div>
+            <div class="haif">
+                <h1>Coffee Shop</h1>
+                <p>"Hidup dapat diibaratkan seperti secangkir kopi hitam. Dimana rasa manis dan pahit akan bertemu
+                    didalam sebuah kehangatan."
+                    <br><br>
+                    "Dengan meminum kopi dapat membantu meningkatkan daya ingat. Kandungan kafein dalam kopi hitam bisa
+                    mengoptimalkan kemampuan mengingat dan fokus. Sebab, kafein bisa meningkatkan kemampuan otak dalam
+                    menyimpan memori jangka panjang."
+                    <br><br>
+                    "Silahkan Pesan Disini"
+                </p>
+                <form action="index.html">
+                    <button>MENU</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

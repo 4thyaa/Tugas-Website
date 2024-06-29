@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="status-bar">
+        <div class="status-bar-container container">
+            <div>
+                <span>7.30 AM - 9.30 PM</span>
+                <span>+880 1630 225 015</span>
+            </div>
+            <span>+REGISTER</span>
+        </div>
+    </div>
+
+    <div class="heading">
+        <div class="heading-container container">
+            
+
+            <div class="heading-menus">
+                <a class="heading-menuitem" href="#coffee" onclick="showSection('coffee')">COFFEE</a>
+                <a class="heading-menuitem" href="#juice" onclick="showSection('juice')">JUICE</a>
+                <a class="heading-menuitem" href="#milkshake" onclick="showSection('milkshake')">MILK SHAKE</a>
+            </div>
+            <div class="spacer"></div>
+
+            <div class="chart-button">
+                <i class="fas fa-shopping-cart"></i>
+                <span id="cart-count">0</span>
+            </div>
+
+            <div class="order-button">
+                <div class="order-button-text">
+                    <div style="font-weight: bold;">Delivery Order</div>
+                    <div>+880 1630 225 015</div>
+                </div>
+                <div class="delivery-icon">
+                    <i class="fas fa-truck"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="coffee" class="menu-container">
+        <div class="item">
+            <img src="asset/matcha.jpg" alt="Matcha">
+            <h2>Matcha <span>$35</span></h2>
+            <p>You're like a Matcha, simple yet making my heart beat faster with every smile you give.</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="item">
+            <img src="asset/mochacoffe.jpg" alt="Mocha Coffee">
+            <h2>Mocha Coffee <span>$28</span></h2>
+            <p>Life is better with a coffee in hand.</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="item">
+            <img src="asset/espresso.jpg" alt="Espresso">
+            <h2>Espresso <span>$30</span></h2>
+            <p>Strong and bold, perfect for a quick boost.</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="item">
+            <img src="asset/cappucino.jpg" alt="Cappuccino">
+            <h2>Cappuccino <span>$32</span></h2>
+            <p>A classic choice for any coffee lover.</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+
+    <div id="juice" class="menu-container" style="display: none;">
+        <div class="item">
+            <img src="asset/manggo juice.jpg" />
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="item">
+            <img src="asset/strawberry juice.jpg" />
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="item">
+            <img src="asset/dragon fruit.jpg" />
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="item">
+            <img src="asset/orangejuice.jpg" />
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+
+    <div id="milkshake" class="menu-container" style="display: none;">
+        <div class="item">
+            <img src="asset/milkshakecarmel.jpg" />
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="item">
+            <img src="asset/milkshakecoffe.jpg" />
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="item">
+            <img src="asset/milkShakecokkelat.jpg" />
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="item">
+            <img src="asset/milkshakeVanilla.jpg" />
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+
+    <div id="about" class="menu-container" style="display: none;">
+
+    </div>
+
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>
